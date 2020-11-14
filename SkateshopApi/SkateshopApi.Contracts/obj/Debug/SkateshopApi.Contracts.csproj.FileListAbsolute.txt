@@ -1,0 +1,5 @@
+C:\Users\sof_z\source\repos\Skateshop\SkateshopApi\SkateshopApi.Contracts\bin\Debug\SkateshopApi.Contracts.dll
+C:\Users\sof_z\source\repos\Skateshop\SkateshopApi\SkateshopApi.Contracts\bin\Debug\SkateshopApi.Contracts.pdb
+C:\Users\sof_z\source\repos\Skateshop\SkateshopApi\SkateshopApi.Contracts\obj\Debug\SkateshopApi.Contracts.csprojAssemblyReference.cache
+C:\Users\sof_z\source\repos\Skateshop\SkateshopApi\SkateshopApi.Contracts\obj\Debug\SkateshopApi.Contracts.dll
+C:\Users\sof_z\source\repos\Skateshop\SkateshopApi\SkateshopApi.Contracts\obj\Debug\SkateshopApi.Contracts.pdb

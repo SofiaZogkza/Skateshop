@@ -1,0 +1,8 @@
+C:\Users\sof_z\source\repos\Skateshop\SkateshopApi\SkateshopApi.Interfaces\bin\Debug\SkateshopApi.Interfaces.dll
+C:\Users\sof_z\source\repos\Skateshop\SkateshopApi\SkateshopApi.Interfaces\bin\Debug\SkateshopApi.Interfaces.pdb
+C:\Users\sof_z\source\repos\Skateshop\SkateshopApi\SkateshopApi.Interfaces\bin\Debug\SkateshopApi.Contracts.dll
+C:\Users\sof_z\source\repos\Skateshop\SkateshopApi\SkateshopApi.Interfaces\bin\Debug\SkateshopApi.Contracts.pdb
+C:\Users\sof_z\source\repos\Skateshop\SkateshopApi\SkateshopApi.Interfaces\obj\Debug\SkateshopApi.Interfaces.csprojAssemblyReference.cache
+C:\Users\sof_z\source\repos\Skateshop\SkateshopApi\SkateshopApi.Interfaces\obj\Debug\SkateshopApi.Interfaces.csproj.CopyComplete
+C:\Users\sof_z\source\repos\Skateshop\SkateshopApi\SkateshopApi.Interfaces\obj\Debug\SkateshopApi.Interfaces.dll
+C:\Users\sof_z\source\repos\Skateshop\SkateshopApi\SkateshopApi.Interfaces\obj\Debug\SkateshopApi.Interfaces.pdb
