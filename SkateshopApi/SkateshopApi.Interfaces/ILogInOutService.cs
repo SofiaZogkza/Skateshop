@@ -5,7 +5,7 @@ namespace SkateshopApi.Interfaces
 {
     public interface ILogInOutService
     {
-        LogInOutResponse LogIn(LogInOutRequest req);
-        LogInOutResponse LogOut(LogInOutRequest req);
+        Task<LogInOutResponse> LogIn(LogInOutRequest req);
+        Task<LogInOutResponse> LogOut(LogInOutRequest req);
     }
 }

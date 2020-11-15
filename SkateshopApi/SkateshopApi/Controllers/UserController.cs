@@ -18,17 +18,17 @@ namespace SkateshopApi.Controllers
         [EnableCors("http://localhost:4200", "*", "*")]
         [HttpPost]
         [ActionName("login")]
-        public LogInOutResponse LogIn(LogInOutRequest req)
+        public async Task<LogInOutResponse> LogIn(LogInOutRequest req)
         {
-            return logInOutService.LogIn(req);
+            return await logInOutService.LogIn(req);
         }
 
         [EnableCors("http://localhost:4200", "*", "*")]
         [HttpPost]
         [ActionName("logout")]
-        public LogInOutResponse LogOut(LogInOutRequest req)
+        public async Task<LogInOutResponse> LogOut(LogInOutRequest req)
         {
-            return logInOutService.LogOut(req);
+            return await logInOutService.LogOut(req);
         }
     }
 }
