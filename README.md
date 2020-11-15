@@ -1,9 +1,8 @@
 # Skateshop
 
-.NET Framework Web API (SkateshopApi)
+## .NET Framework Web API (SkateshopApi) ##
 
 Implementing the web API with the following principles/patterns:
-
 REST architectural design, RESTful web API (CRUD operations through HTTP verbs)
 Clean Code
 SOA (Service Oriented Architecture)
@@ -14,7 +13,7 @@ Technologies used:
 .NET Framework 4.7 with C#
 Autofac
 
-Angular 11 (SkateshopUI)
+##Angular 11 (SkateshopUI) ##
 
 Instructions to implement and run the UI:
 1. Download and install :
