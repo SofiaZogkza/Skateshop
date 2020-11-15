@@ -23,7 +23,8 @@ namespace SkateshopApi.Contracts
         {
             new LogInOutRequest("Sofia_zogkza@gmail.com", "Zogkza" , false),
             new LogInOutRequest("maria_zogkza@gmail.com", "123456" , false),
-            new LogInOutRequest("george_zogkza@gmail.com", "65432" , false)
+            new LogInOutRequest("george_zogkza@gmail.com", "65432" , false),
+            new LogInOutRequest("sofia", "zogkza" , false)
         };
     }
 }

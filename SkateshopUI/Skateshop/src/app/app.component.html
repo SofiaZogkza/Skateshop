@@ -1,7 +1,7 @@
-<app-aboutus></app-aboutus>
+<!-- <app-aboutus></app-aboutus>
 <app-contactus></app-contactus>
 <app-login></app-login>
-<app-logout></app-logout>
+<app-logout></app-logout> -->
 
 <!--Navbar -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -9,7 +9,7 @@
     aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <a class="navbar-brand" href="#">Navbar</a>
+  <a class="navbar-brand" href="#">SKATEBOARD STORE</a>
 
   <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
@@ -20,14 +20,21 @@
         <a class="nav-link" [routerLink]="['/AboutUs']">About Us</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" [routerLink]="['/ContactUs']">Contact Us</a>
+        <a class="nav-link " [routerLink]="['/ContactUs']">Contact Us</a>
       </li>
+      <li *ngIf="!loggedIn">
+        <button class="btn btn-outline-success my-2 my-sm-0" [routerLink]="['/LogIn']" type="submit">Login</button>
+      </li>
+
     </ul>
-    <form class="form-inline my-2 my-lg-0">
+    <!-- <form class="form-inline my-2 my-lg-0">
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Login</button>
-    </form>
+    </form> -->
   </div>
 </nav>
+
+<!-- <div *ngIf="" class="fadeIn first">
+  
+</div> -->
 <!--/.Navbar -->
 <router-outlet></router-outlet>
-<button type="button" class="btn btn-primary">Primary</button>

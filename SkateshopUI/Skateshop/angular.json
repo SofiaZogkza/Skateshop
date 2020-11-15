@@ -69,7 +69,8 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "Skateshop:build"
+            "browserTarget": "Skateshop:build",
+            "proxyConfig": "src/app/proxy.conf.json"
           },
           "configurations": {
             "production": {

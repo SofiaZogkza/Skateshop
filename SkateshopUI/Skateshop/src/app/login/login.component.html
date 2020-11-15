@@ -1,1 +1,51 @@
-<p>login works!</p>
+<!------ Include the above in your HEAD tag ---------->
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<div *ngIf="!loggedIn  && !showModal" class="wrapper fadeInDown">
+    <div id="formContent">
+        <!-- Tabs Titles -->
+
+
+        <!-- Login Form -->
+        <form [formGroup]="loginForm">
+            <!-- <input type="text" id="username" class="fadeIn second" name="login" placeholder="login"> -->
+            <input id="username" class="form-control fadeIn second" formControlName="username" placeholder="Username">
+            <div class="valid-error-text" *ngIf="!loginForm.get('username')?.hasError('pattern')">
+                <span class=" ml-1">Not Valid Username</span>
+            </div>
+            <!-- <input type="text" id="password" class="fadeIn third" name="login" placeholder="password"> -->
+            <input id="password" class="form-control fadeIn third" formControlName="password" placeholder="Password">
+            <div class="valid-error-text" *ngIf="!loginForm.get('password')?.hasError('pattern')">
+                <span class=" ml-1">Not Valid Password</span>
+            </div>
+            <input type="submit" (click)="logIn()" class="fadeIn fourth" value="Submit">
+        </form>
+
+        <!-- Remind Passowrd -->
+        <div id="formFooter">
+            <a class="underlineHover" [routerLink]="['/']">Cancel</a>
+        </div>
+        <router-outlet></router-outlet>
+    </div>
+</div>
+
+<div *ngIf="loggedIn && !loggedOutUser">
+    <!-- Icon -->
+    <div class="fadeIn first">
+        <img src="https://www.callcentrehelper.com/images/stories/2018/11/welcome-red-sign-760.png" id="icon"
+            alt="User Icon" />
+    </div>
+</div>
+
+<div *ngIf="loggedIn && !loggedOutUser">
+    <app-logout (loggingOut)="loggedOut($event)"></app-logout>
+</div>
+
+<div id="myModal">
+
+    <p>{{systemErrorMessage}}</p>
+
+</div>

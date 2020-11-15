@@ -2,6 +2,7 @@
 using SkateshopApi.Interfaces;
 using System.Threading.Tasks;
 using System.Web.Http;
+using System.Web.Http.Cors;
 
 namespace SkateshopApi.Controllers
 {
@@ -14,6 +15,7 @@ namespace SkateshopApi.Controllers
         }
 
 
+        [EnableCors("http://localhost:4200", "*", "*")]
         [HttpPost]
         [ActionName("login")]
         public LogInOutResponse LogIn(LogInOutRequest req)
@@ -21,6 +23,7 @@ namespace SkateshopApi.Controllers
             return logInOutService.LogIn(req);
         }
 
+        [EnableCors("http://localhost:4200", "*", "*")]
         [HttpPost]
         [ActionName("logout")]
         public LogInOutResponse LogOut(LogInOutRequest req)
