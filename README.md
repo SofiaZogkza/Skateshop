@@ -33,16 +33,20 @@ Instructions to implement and run the UI:
   
 2. Run the UI
 
-  ng serve
+	*  ng serve
   
 Instructions to play with the Skateshop webpage:
 Prerequisites (UI is running : ng serve,
 			   Api is running: Ctrl + F5 Visual Studio)
 
 1.	Click Login Button in NavBar
+
 2.	Provide a username and a password
+
 3.a	Click "Submit" Button (Validates the user if:
+
 	3.a.1 she/he is already Logged In -> Routes to a Welcome Page
+	
 	3.a.2 she/he is registered in the website. -> Shoes an Error Message
 	
 3.b	Click "Cancel" Button and expect to return in Home Page
