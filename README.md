@@ -19,17 +19,17 @@ Technologies used:
 Instructions to implement and run the UI:
 1. Download and install : :zap:
 
-  node.js
-  
-  npm install -g typescript
-  
-  npm install -g @angular/cli
-  
-  npm install bootstrap
-  
-  npm install jquery
-  
-  npm install popper.jsng g service state
+	  node.js
+
+	  npm install -g typescript
+
+	  npm install -g @angular/cli
+
+	  npm install bootstrap
+
+	  npm install jquery
+
+	  npm install popper.jsng g service state
   
 2. Run the UI
 
